@@ -1,0 +1,10 @@
+mat-card-title{
+  border-bottom: solid;
+}
+mat-card{
+  max-width: 200px;
+  max-height: 200px;
+}
+mat-card-content{
+  overflow: auto;
+}
