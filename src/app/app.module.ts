@@ -6,6 +6,7 @@ import { EntityComponent } from './components/entity/entity.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from "@angular/material/card";
 import {CdkDrag} from "@angular/cdk/drag-drop";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {CdkDrag} from "@angular/cdk/drag-drop";
     BrowserAnimationsModule,
     MatCardModule,
     CdkDrag,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
